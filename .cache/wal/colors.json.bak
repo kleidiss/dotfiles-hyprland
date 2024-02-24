@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/kleidis/Wallpapers/1343214.jpeg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1c242a",
+        "foreground": "#f4cdbe",
+        "cursor": "#f4cdbe"
+    },
+    "colors": {
+        "color0": "#1c242a",
+        "color1": "#986C9E",
+        "color2": "#CE77A1",
+        "color3": "#6589B1",
+        "color4": "#9385AB",
+        "color5": "#AF87AB",
+        "color6": "#DE929C",
+        "color7": "#f4cdbe",
+        "color8": "#aa8f85",
+        "color9": "#986C9E",
+        "color10": "#CE77A1",
+        "color11": "#6589B1",
+        "color12": "#9385AB",
+        "color13": "#AF87AB",
+        "color14": "#DE929C",
+        "color15": "#f4cdbe"
+    }
+}

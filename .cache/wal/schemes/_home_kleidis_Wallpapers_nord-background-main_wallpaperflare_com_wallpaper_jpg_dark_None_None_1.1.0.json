@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kleidis/Wallpapers/nord-background-main/wallpaperflare.com_wallpaper.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#161920",
+        "foreground": "#c1d4d7",
+        "cursor": "#c1d4d7"
+    },
+    "colors": {
+        "color0": "#161920",
+        "color1": "#91748D",
+        "color2": "#A3BD8D",
+        "color3": "#B38EAD",
+        "color4": "#99B6A1",
+        "color5": "#D1C288",
+        "color6": "#EACB8B",
+        "color7": "#c1d4d7",
+        "color8": "#879496",
+        "color9": "#91748D",
+        "color10": "#A3BD8D",
+        "color11": "#B38EAD",
+        "color12": "#99B6A1",
+        "color13": "#D1C288",
+        "color14": "#EACB8B",
+        "color15": "#c1d4d7"
+    }
+}

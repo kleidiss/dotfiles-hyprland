@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kleidis/Wallpapers/wallhaven-2yj33y.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0809",
+        "foreground": "#f3c19b",
+        "cursor": "#f3c19b"
+    },
+    "colors": {
+        "color0": "#0a0809",
+        "color1": "#443F40",
+        "color2": "#66574C",
+        "color3": "#9E2C16",
+        "color4": "#BC3F14",
+        "color5": "#E55F0D",
+        "color6": "#887463",
+        "color7": "#f3c19b",
+        "color8": "#aa876c",
+        "color9": "#443F40",
+        "color10": "#66574C",
+        "color11": "#9E2C16",
+        "color12": "#BC3F14",
+        "color13": "#E55F0D",
+        "color14": "#887463",
+        "color15": "#f3c19b"
+    }
+}

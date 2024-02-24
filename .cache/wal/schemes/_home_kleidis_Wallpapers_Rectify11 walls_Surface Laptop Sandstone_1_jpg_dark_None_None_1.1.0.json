@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kleidis/Wallpapers/Rectify11 walls/Surface Laptop Sandstone_1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#6e4634",
+        "foreground": "#e0e2e9",
+        "cursor": "#e0e2e9"
+    },
+    "colors": {
+        "color0": "#6e4634",
+        "color1": "#75AAD3",
+        "color2": "#D0AFAC",
+        "color3": "#89B8DA",
+        "color4": "#B6B5CD",
+        "color5": "#AFC9E0",
+        "color6": "#C9CBD9",
+        "color7": "#e0e2e9",
+        "color8": "#9c9ea3",
+        "color9": "#75AAD3",
+        "color10": "#D0AFAC",
+        "color11": "#89B8DA",
+        "color12": "#B6B5CD",
+        "color13": "#AFC9E0",
+        "color14": "#C9CBD9",
+        "color15": "#e0e2e9"
+    }
+}

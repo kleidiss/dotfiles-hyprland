@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kleidis/Wallpapers/wallhaven-yx923g.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a060c",
+        "foreground": "#cc9bbd",
+        "cursor": "#cc9bbd"
+    },
+    "colors": {
+        "color0": "#0a060c",
+        "color1": "#592B61",
+        "color2": "#624E5F",
+        "color3": "#A63C47",
+        "color4": "#9C5963",
+        "color5": "#463992",
+        "color6": "#963C91",
+        "color7": "#cc9bbd",
+        "color8": "#8e6c84",
+        "color9": "#592B61",
+        "color10": "#624E5F",
+        "color11": "#A63C47",
+        "color12": "#9C5963",
+        "color13": "#463992",
+        "color14": "#963C91",
+        "color15": "#cc9bbd"
+    }
+}

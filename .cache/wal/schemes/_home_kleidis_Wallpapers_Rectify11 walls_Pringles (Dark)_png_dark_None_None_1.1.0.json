@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kleidis/Wallpapers/Rectify11 walls/Pringles (Dark).png",
+    "alpha": "100",
+    "special": {
+        "background": "#03091A",
+        "foreground": "#b8b2ec",
+        "cursor": "#b8b2ec"
+    },
+    "colors": {
+        "color0": "#03091A",
+        "color1": "#261B93",
+        "color2": "#34288F",
+        "color3": "#3426AF",
+        "color4": "#4638AB",
+        "color5": "#4739C1",
+        "color6": "#695ADF",
+        "color7": "#b8b2ec",
+        "color8": "#807ca5",
+        "color9": "#261B93",
+        "color10": "#34288F",
+        "color11": "#3426AF",
+        "color12": "#4638AB",
+        "color13": "#4739C1",
+        "color14": "#695ADF",
+        "color15": "#b8b2ec"
+    }
+}

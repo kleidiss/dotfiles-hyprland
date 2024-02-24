@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/kleidis/Wallpapers/wallhaven-zyvg1j.png"
+let background = "#0d1236"
+let foreground = "#efd7d5"
+let cursor     = "#efd7d5"
+
+" Colors
+let color0  = "#0d1236"
+let color1  = "#4E69C6"
+let color2  = "#B761B5"
+let color3  = "#1C9FDA"
+let color4  = "#328BCE"
+let color5  = "#4987CF"
+let color6  = "#FBB6BD"
+let color7  = "#efd7d5"
+let color8  = "#a79695"
+let color9  = "#4E69C6"
+let color10 = "#B761B5"
+let color11 = "#1C9FDA"
+let color12 = "#328BCE"
+let color13 = "#4987CF"
+let color14 = "#FBB6BD"
+let color15 = "#efd7d5"

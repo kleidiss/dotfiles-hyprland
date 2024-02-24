@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kleidis/Wallpapers/nord-background-main/ign_desert.png",
+    "alpha": "100",
+    "special": {
+        "background": "#2a242b",
+        "foreground": "#d2ddd8",
+        "cursor": "#d2ddd8"
+    },
+    "colors": {
+        "color0": "#2a242b",
+        "color1": "#5F7385",
+        "color2": "#759196",
+        "color3": "#97A9A2",
+        "color4": "#D1AB96",
+        "color5": "#A6C4B8",
+        "color6": "#E2CFA7",
+        "color7": "#d2ddd8",
+        "color8": "#939a97",
+        "color9": "#5F7385",
+        "color10": "#759196",
+        "color11": "#97A9A2",
+        "color12": "#D1AB96",
+        "color13": "#A6C4B8",
+        "color14": "#E2CFA7",
+        "color15": "#d2ddd8"
+    }
+}

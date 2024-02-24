@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kleidis/Wallpapers/nord-background-main/ign_street-crossing.png",
+    "alpha": "100",
+    "special": {
+        "background": "#11151e",
+        "foreground": "#dad7d2",
+        "cursor": "#dad7d2"
+    },
+    "colors": {
+        "color0": "#11151e",
+        "color1": "#5E6066",
+        "color2": "#6C7171",
+        "color3": "#7D7D7E",
+        "color4": "#7B837B",
+        "color5": "#78898E",
+        "color6": "#9EA099",
+        "color7": "#dad7d2",
+        "color8": "#989693",
+        "color9": "#5E6066",
+        "color10": "#6C7171",
+        "color11": "#7D7D7E",
+        "color12": "#7B837B",
+        "color13": "#78898E",
+        "color14": "#9EA099",
+        "color15": "#dad7d2"
+    }
+}
