@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/kleidis/.config/wpg/wallpapers/ign_mountains.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1c1f27",
+        "foreground": "#c7bcc4",
+        "cursor": "#c7bcc4"
+    },
+    "colors": {
+        "color0": "#1c1f27",
+        "color1": "#6E7393",
+        "color2": "#7E7DA0",
+        "color3": "#8C7A90",
+        "color4": "#A97A88",
+        "color5": "#C17C82",
+        "color6": "#7D809B",
+        "color7": "#c7bcc4",
+        "color8": "#8b8389",
+        "color9": "#6E7393",
+        "color10": "#7E7DA0",
+        "color11": "#8C7A90",
+        "color12": "#A97A88",
+        "color13": "#C17C82",
+        "color14": "#7D809B",
+        "color15": "#c7bcc4"
+    }
+}

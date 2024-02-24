@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/kleidis/.config/wpg/wallpapers/ign_unsplash4.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#121b27",
+        "foreground": "#dcdfdf",
+        "cursor": "#dcdfdf"
+    },
+    "colors": {
+        "color0": "#121b27",
+        "color1": "#79AAC4",
+        "color2": "#95A2A0",
+        "color3": "#ADB7B7",
+        "color4": "#A8BDC2",
+        "color5": "#95C5D4",
+        "color6": "#B9C5C7",
+        "color7": "#dcdfdf",
+        "color8": "#9a9c9c",
+        "color9": "#79AAC4",
+        "color10": "#95A2A0",
+        "color11": "#ADB7B7",
+        "color12": "#A8BDC2",
+        "color13": "#95C5D4",
+        "color14": "#B9C5C7",
+        "color15": "#dcdfdf"
+    }
+}

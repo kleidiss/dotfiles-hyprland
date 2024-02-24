@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/kleidis/.config/wpg/wallpapers/wallhaven-7pmmzy.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#000001",
+        "foreground": "#a0a8da",
+        "cursor": "#a0a8da"
+    },
+    "colors": {
+        "color0": "#000001",
+        "color1": "#FE9E21",
+        "color2": "#FECE12",
+        "color3": "#FE8443",
+        "color4": "#FEDC5C",
+        "color5": "#223884",
+        "color6": "#344BAA",
+        "color7": "#a0a8da",
+        "color8": "#707598",
+        "color9": "#FE9E21",
+        "color10": "#FECE12",
+        "color11": "#FE8443",
+        "color12": "#FEDC5C",
+        "color13": "#223884",
+        "color14": "#344BAA",
+        "color15": "#a0a8da"
+    }
+}

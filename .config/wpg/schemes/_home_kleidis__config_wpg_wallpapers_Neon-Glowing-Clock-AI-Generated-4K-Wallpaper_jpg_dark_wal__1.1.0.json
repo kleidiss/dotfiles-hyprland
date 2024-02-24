@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/kleidis/.config/wpg/wallpapers/Neon-Glowing-Clock-AI-Generated-4K-Wallpaper.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#090918",
+        "foreground": "#8ad9ef",
+        "cursor": "#8ad9ef"
+    },
+    "colors": {
+        "color0": "#090918",
+        "color1": "#55255A",
+        "color2": "#294378",
+        "color3": "#A7375E",
+        "color4": "#1D55A2",
+        "color5": "#4046A9",
+        "color6": "#C250C2",
+        "color7": "#8ad9ef",
+        "color8": "#6097a7",
+        "color9": "#55255A",
+        "color10": "#294378",
+        "color11": "#A7375E",
+        "color12": "#1D55A2",
+        "color13": "#4046A9",
+        "color14": "#C250C2",
+        "color15": "#8ad9ef"
+    }
+}
