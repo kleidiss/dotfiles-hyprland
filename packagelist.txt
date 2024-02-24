@@ -1,0 +1,23 @@
+# Arch Repos
+
+#important
+stow
+
+xdg-desktop-portal-gtk , thunar , alacritty , power-profiles-daemon , waybar , gnome-disk-utility , polkit-kde-agent , 
+brightnessctl , ttf-font-awesome , ttf-roboto-mono , font-menager , python-pywal , git , flatpak , xdg-user-dirs ,
+network-manager-applet , blueman , bluez-utils , bluez , qt5ct , qt6ct , lxdapperance , grim , slurp , udiskie , cliphist ,
+pamixer , playerctl , otf-droid-nerd , noto-fonts-emoji , ttf-arimo-nerd
+
+# Yay (aur) oackages
+
+wlogout , waypaper-git , swww , waybar-module-pacman-updates-git , wpgtk-git , swaync , qt5-styleplugins , qt6gtk2-git ,
+swaylock-effects , peazip-gtk2-bin , rofi-lbonn-wayland-git , pyprland
+
+#Use GTK theme for flatpak
+~ sudo flatpak override --filesystem=xdg-data/theme
+
+#Fix oh-my-zsh
+print -P '%F{#ff0000}red%f                                                                                                  ✔  08:30:30 PM  
+
+#Run stow
+stow .
