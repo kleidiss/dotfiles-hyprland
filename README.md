@@ -5,6 +5,8 @@
 
 # Needed Commands
 
+After installing all packages from [this txt file](https://github.com/kleidiss/dotfiles/blob/main/packagelist.txt)
+
 ## Run stow to sync dotfiles
 stow .
 
@@ -14,6 +16,6 @@ sudo flatpak override --filesystem=xdg-data/theme
 
 # Touble-shooting
 
-# Fix oh-my-zsh
+## Fix oh-my-zsh
 print -P '%F{#ff0000}red%f                                                                                                  ✔  
 
