@@ -1,4 +1,4 @@
-@theme " ~/.local/share/rofi/themes/style-2.rasi"
+@theme "~/.local/share/rofi/themes/style-2.rasi"
 
 /* ---- Configuration ---- */
 configuration {
