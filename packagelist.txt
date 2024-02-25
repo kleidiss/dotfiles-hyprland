@@ -4,8 +4,8 @@
 stow
 
 xdg-desktop-portal-gtk , thunar , alacritty , power-profiles-daemon , waybar , gnome-disk-utility , polkit-kde-agent , 
-brightnessctl , ttf-font-awesome , ttf-roboto-mono , font-menager , python-pywal , git , flatpak , xdg-user-dirs ,
-network-manager-applet , blueman , bluez-utils , bluez , qt5ct , qt6ct , lxdapperance , grim , slurp , udiskie , cliphist ,
+brightnessctl , ttf-font-awesome , ttf-roboto-mono , font-manager , python-pywal , git , flatpak , xdg-user-dirs ,
+network-manager-applet , blueman , bluez-utils , bluez , qt5ct , qt6ct , lxappearance , grim , slurp , udiskie , cliphist ,
 pamixer , playerctl , otf-droid-nerd , noto-fonts-emoji , ttf-arimo-nerd
 
 # Yay (aur) oackages
