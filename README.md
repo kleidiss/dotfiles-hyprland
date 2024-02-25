@@ -13,6 +13,13 @@ stow .
 ## Use the pywal GTK theme for flatpak
 sudo flatpak override --filesystem=xdg-data/theme
 
+## Update the user direcotries
+xdg-user-dirs-update
+
+## Set your first wallpaper
+
+waypaper
+
 
 # Touble-shooting
 
