@@ -36,6 +36,7 @@ pacman_packages=(
     playerctl
     otf-droid-nerd
     noto-fonts-emoji
+    papirus-icon-theme
     ttf-arimo-nerd
 )
 
@@ -81,9 +82,13 @@ xdg-user-dirs-update
 echo "Syncing dotfiles with stow..."
 stow .
 
-# Install wpgtk themes
-echo "Installing wpgtk themes..."
+# Install wpgtk linea-nord theme
+echo "Installing lineanord wpgtk theme..."
 wpg-install.sh -G
+
+# Install the rest of wpgtk themes
+echo "Installing wpgtk themes..."
+wpg-install.sh -g
 
 # Symlink to .themes from ~/.local/share/themes
 echo "Creating symlinks for themes..."
