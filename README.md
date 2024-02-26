@@ -5,7 +5,7 @@
 
 # How to install?
 
-#@ Make sure you run this after a fresh archinstall of hyprland 
+## Make sure you run this after a fresh archinstall of hyprland 
  - Before the first login go to the TTY
 
 1 - Make sure yay and git are insatlled and clone this repo 
