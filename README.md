@@ -6,7 +6,11 @@
 # How to install?
 
 1 - Make sure yay and git are insatlled and clone this repo 
+
 2 - Make the installtheme.sh script executable by using ```chmod +x installtheme.sh```
+
 3 - Run installtheme.sh 
+
 4 - Set a wallpaper with waypaper app to update the theme 
+
 5 - Cheri Cheri Lady 
