@@ -15,7 +15,6 @@ pacman_packages=(
     ttf-roboto-mono
     font-manager
     python-pywal
-    nwg-look
     flatpak
     gvfs 
     thunar-volman 
