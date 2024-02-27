@@ -14,7 +14,6 @@ pacman_packages=(
     ttf-font-awesome
     ttf-roboto-mono
     font-manager
-    python-pywal
     flatpak
     gvfs 
     thunar-volman 
@@ -45,14 +44,12 @@ yay_packages=(
     waypaper-git
     swww
     waybar-module-pacman-updates-git
-    wpgtk-git
     swaync
-    qt5-styleplugins
-    qt6gtk2-git
     swaylock-effects
     peazip-gtk2-bin
     rofi-lbonn-wayland-git
     pyprland
+    adw-gtk3-git
 )
 
 # Install packages with pacman
@@ -81,19 +78,11 @@ xdg-user-dirs-update
 echo "Syncing dotfiles with stow..."
 stow .
 
-# Install wpgtk linea-nord theme
-echo "Installing lineanord wpgtk theme..."
-wpg-install.sh -G
+# Set adw-gtk3 theme
+echo "Setting gtk theme..."
+flatpak install org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
+gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
-# Install the rest of wpgtk themes
-echo "Installing wpgtk themes..."
-wpg-install.sh -g
-
-# Symlink to .themes from ~/.local/share/themes
-echo "Creating symlinks for themes..."
-mkdir -p ~/.themes 
-ln -sf ~/.local/share/themes/FlatColor ~/.themes/FlatColor
-ln -sf ~/.local/share/themes/linea-nord-color ~/.themes/linea-nord-color
 
 # Use the pywal GTK theme for flatpak
 echo "Configuring flatpak to use the pywal GTK theme..."
