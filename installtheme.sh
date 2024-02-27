@@ -25,10 +25,13 @@ pacman_packages=(
     bluez
     qt5ct
     qt6ct
-    lxappearance
     grim
     slurp
     udiskie
+    python-pipx
+    kvantum
+    imagemagick
+    nwg-look
     cliphist
     pamixer
     playerctl
@@ -46,10 +49,9 @@ yay_packages=(
     waybar-module-pacman-updates-git
     swaync
     swaylock-effects
-    peazip-gtk2-bin
     rofi-lbonn-wayland-git
     pyprland
-    adw-gtk3-git
+    gradience-git
 )
 
 # Install packages with pacman
@@ -83,12 +85,18 @@ echo "Setting gtk theme..."
 flatpak install org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
 gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+# Install pywal16
+echo "Installing pywall16..."
+pipx ensurepath
+pipx install pywal16
 
 # Use the pywal GTK theme for flatpak
 echo "Configuring flatpak to use the pywal GTK theme..."
-sudo flatpak override --filesystem=~/.themes
-sudo flatpak override --filesystem=~/.local/share/themes
-sudo flatpak override --env=GTK_THEME=linea-nord-color 
+sudo flatpak override --filesystem=xdg-config/gtk-4.0
+sudo flatpak override --filesystem=xdg-config/gtk-3.0
+sudo flatpak override --filesystem=xdg-config/Kvantum:ro
+sudo flatpak override --env=QT_STYLE_OVERRIDE=kvantum
+flatpak install org.kde.KStyle.Kvantum/x86_64/5.15-22.08 org.kde.KStyle.Kvantum/x86_64/5.15-23.08 org.kde.KStyle.Kvantum/x86_64/6.5 org.kde.KStyle.Kvantum/x86_64/6.6 org.kde.KStyle.Kvantum/x86_64/5.15 org.kde.KStyle.Kvantum/x86_64/5.15-21.08
 
 echo "Configuration complete."
 
