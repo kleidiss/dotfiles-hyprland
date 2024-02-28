@@ -10,6 +10,7 @@ pacman_packages=(
     power-profiles-daemon
     waybar
     gnome-disk-utility
+    gnome-software
     polkit-kde-agent
     brightnessctl
     ttf-font-awesome
