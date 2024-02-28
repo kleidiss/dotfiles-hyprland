@@ -75,10 +75,10 @@ echo "All packages have been installed."
 # Additional commands after package installation
 
 # Start daemons
-systemctl enable power-profiles-daemon.service
-systemctl start power-profiles-daemon.service
-systemctl enable bluetooth
- systemctl start bluetooth
+sudo systemctl enable power-profiles-daemon.service
+sudo systemctl start power-profiles-daemon.service
+sudo systemctl enable bluetooth
+sudo systemctl start bluetooth
 
 # Update the user directories
 echo "Updating user directories..."
