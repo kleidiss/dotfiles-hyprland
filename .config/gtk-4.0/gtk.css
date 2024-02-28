@@ -6,19 +6,19 @@ Issues caused by theming should be reported to Gradience repository, and not to 
 https://github.com/GradienceTeam/Gradience
 */
 
-@define-color accent_color #328BCE;
-@define-color accent_bg_color #328BCE;
-@define-color accent_fg_color #c1dcf0;
-@define-color destructive_color #1C9FDA;
+@define-color accent_color #65a8da;
+@define-color accent_bg_color #65a8da;
+@define-color accent_fg_color #d0e4f3;
+@define-color destructive_color #54b7e3;
 @define-color destructive_bg_color #1C9FDA;
-@define-color destructive_fg_color #bae2f3;
-@define-color success_color #4987CF;
-@define-color success_bg_color #4987CF;
+@define-color destructive_fg_color #cbe9f6;
+@define-color success_color #76a5db;
+@define-color success_bg_color #76a5db;
 @define-color success_fg_color #c0c0c3;
-@define-color warning_color #FBB6BD;
+@define-color warning_color #fcc8cd;
 @define-color warning_bg_color #FBB6BD;
 @define-color warning_fg_color #c0c0c3;
-@define-color error_color #1C9FDA;
+@define-color error_color #54b7e3;
 @define-color error_bg_color #1C9FDA;
 @define-color error_fg_color #c0c0c3;
 @define-color window_bg_color #040612;
@@ -38,7 +38,7 @@ https://github.com/GradienceTeam/Gradience
 @define-color popover_bg_color #040612;
 @define-color popover_fg_color #c0c0c3;
 @define-color shade_color #42444d;
-@define-color scrollbar_outline_color #328BCE;
+@define-color scrollbar_outline_color #65a8da;
 @define-color sidebar_bg_color #040612;
 @define-color sidebar_fg_color #c0c0c3;
 @define-color sidebar_backdrop_color #060814;
