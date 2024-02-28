@@ -3,6 +3,7 @@
 # Additional commands after package installation
 
 # Start daemons
+echo "Starting services..."
 sudo systemctl enable power-profiles-daemon.service
 sudo systemctl start power-profiles-daemon.service
 sudo systemctl enable bluetooth
