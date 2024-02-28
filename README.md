@@ -1,6 +1,6 @@
-# My Hyprland theme inspired by Google's Material You
+# My Hyprland theme with dynamic colors
 
-![image](https://github.com/kleidiss/dotfiles/assets/124008722/0ce06ce3-95f0-4967-aad8-927bdfcc7318)
+![image](https://github.com/kleidiss/dotfiles/assets/124008722/e8031751-bb27-48f7-a2f7-b8f452d7d51e)
 
 
 # How to install?
