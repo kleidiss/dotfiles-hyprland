@@ -4,7 +4,7 @@
 pacman_packages=(
     stow
     xdg-desktop-portal-gtk
-    thunar
+    nemo
     alacritty
     zsh
     power-profiles-daemon
@@ -76,6 +76,8 @@ echo "All packages have been installed."
 # Start daemons
 systemctl enable power-profiles-daemon.service
 systemctl start power-profiles-daemon.service
+systemctl enable bluetooth
+ systemctl start bluetooth
 
 # Update the user directories
 echo "Updating user directories..."
@@ -89,6 +91,8 @@ stow .
 echo "Setting gtk theme..."
 flatpak install org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
 gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+#Default terminal
+gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
 
 # Install pywal16
 echo "Installing pywall16..."

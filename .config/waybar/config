@@ -1,10 +1,11 @@
 {
     "layer": "top",
-    "width": 1570,
     "position": "top",
     "margin-top": 8,
     "margin-bottom": 0,
-    "modules-left": ["custom/notification" ,"custom/power", "hyprland/workspaces", "wlr/taskbar"],
+    "margin-left": 10,
+    "margin-right": 5,
+    "modules-left": ["custom/power" ,"custom/notification", "hyprland/workspaces", "wlr/taskbar"],
     "hyprland/workspaces": {
         "active-only": "false",
         "format": "",
@@ -14,7 +15,7 @@
             }
     },
 
-    "modules-center": ["clock", "custom/weather"],
+    "modules-center": ["group/weatherandclock"],
     "padding": {
         "top": 10,
         "bottom": 10
@@ -32,7 +33,7 @@
     ]  
 },
 
-    "modules-right": ["group/settings", "group/hardwarestats", "tray"],
+    "modules-right": ["group/settings", "custom/updates", "group/hardwarestats", "tray"],
     "group/hardwarestats": {
         "orientation": "inherit",
         "modules": [
@@ -47,8 +48,14 @@
         "modules": [
             "network",
             "bluetooth",
-            "pulseaudio",
-            "custom/updates"
+            "pulseaudio"
+        ] 
+    },
+    "group/weatherandclock": {
+        "orientation": "inherit",
+        "modules": [
+            "clock",
+            "custom/weather"
         ] 
     },
     "custom/notification": {
@@ -94,9 +101,9 @@
         "on-click": "alacritty -e ~/updatesystem.sh"
     },    
     "pulseaudio": {
-        "format": "{icon} {volume}% /",
-        "format-bluetooth": "{icon} {volume}% /",
-        "format-muted": " /",
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{icon} {volume}%",
+        "format-muted": "",
         "format-icons": {
             "headphone": "",
             "hands-free": "󰋋",

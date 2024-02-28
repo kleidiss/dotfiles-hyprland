@@ -7,7 +7,7 @@
 }
 
 window#waybar {
-    background-color: @background;
+    background-color: @transparent;
     transition-property: background-color;
     transition-duration: .5s;
     border-radius: 20px;
@@ -40,29 +40,29 @@ window#waybar.chromium {
 }
 
 #workspaces {
-    background: @color11;
+    background: @background;
     margin: 5px 2px 5px 2px;
-    border-radius: 20px;
+    border-radius: 7px;
 }
 
 #workspaces button {
     padding: 0px 5px;
-    margin: 4px 3px;
-    border-radius: 15px;
-    background-color: @color15;
+    margin: 4px 5px;
+    border-radius: 30px;
+    background-color: @color1;
     transition: all 0.3s ease-in-out;
 }
 
 #workspaces button.active {
-    background: @color7;
+    background: @color2;
     border-radius: 10px;
-    min-width: 45px;
+    min-width: 30px;
     transition: all 0.3s ease-in-out;
 }
 
 #workspaces button:hover {
     color: @cursor;
-    background: @color1;
+    background: @color12;
     border-radius: 15px;
 }
 
@@ -71,10 +71,12 @@ window#waybar.chromium {
 #temperature,
 #network,
 #pulseaudio,
+#custom-updates
 #custom-media,
 #custom-power,
 #custom-weather,
 #custom-updates,
+#weatherandclock,
 #tray,
 #taskbar,
 #mode,
@@ -82,30 +84,33 @@ window#waybar.chromium {
 #custom-notification,
 #settings,
 #mpd {
-    margin: 6px 6px;
-    border-radius: 26px;
+    margin: 6px 5px;
+    border-radius: 7px;
 }
 
-#clock {
-    color: @foreground;
+#weatherandclock {
+    background-color: @background;
+    color: @color1
 }
 
 #custom-notification {
     padding: 0px 15px;
-    background-color: @foreground;
-    color: @background;
+    background-color: @background;
+    color: @foreground;
     font-family: "NotoSansMono"
 }
 
 #custom-power {
-    background-color: #ff3300;
+    background-color: @background;
     border-radius: 26px;
+    color: @color4;
     min-width:  50px;
 }
 
 #hardwarestats {
-    background-color: @foreground;
-    color: @background;
+    background-color: @background;
+    color: @color4;
+    padding: 0px 0px 0px 0px
 }
 
 #battery.charging, #battery.plugged {
@@ -133,14 +138,16 @@ label:focus {
     background-color: #000000;
 }
 
-#custom-weather {
-    color: @foreground;
+#settings {
+    background-color: @background;
+    color: @color12;
+    padding: 0px 0px 0px 0px
 }
 
-#settings {
-    background-color: @color6;
-    color: @background;
-    padding: 0px 0px 0px 0px
+#custom-updates {
+    background-color: @background;
+    color: @color7;
+    padding: 7px
 }
 
 #network.disconnected {
@@ -153,7 +160,7 @@ label:focus {
 }
 
 #taskbar {
-    border: solid 3px @color2;
+    background: @background;
 }
 
 #taskbar.empty {
@@ -169,7 +176,7 @@ label:focus {
 }
 
 #tray {
-    background: @color3;
+    background: @background;
     padding: 0px 8px 0px 5px;
 }
 
