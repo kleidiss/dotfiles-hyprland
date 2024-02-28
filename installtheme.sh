@@ -16,7 +16,8 @@ pacman_packages=(
     ttf-roboto-mono
     font-manager
     flatpak
-    gvfs 
+    gvfs
+    swaybg 
     thunar-volman 
     gvfs-mtp
     xdg-user-dirs
@@ -46,7 +47,6 @@ pacman_packages=(
 yay_packages=(
     wlogout
     waypaper-git
-    swww
     waybar-module-pacman-updates-git
     swaync
     swaylock-effects
@@ -94,6 +94,9 @@ gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3' && gsettings set 
 #Default terminal
 gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
 
+#Set kvantun theme to pywal
+kvantummanager --set pywal
+
 # Install pywal16
 echo "Installing pywall16..."
 pipx ensurepath
@@ -111,7 +114,7 @@ flatpak install org.kde.KStyle.Kvantum/x86_64/5.15-22.08 org.kde.KStyle.Kvantum/
 echo "Installing oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-rm .zshrc
+rm ~/.zshrc
 stow .
 
 echo "Configuration complete."
