@@ -8,7 +8,7 @@
     "modules-left": ["custom/power" ,"custom/notification", "hyprland/workspaces", "wlr/taskbar"],
     "hyprland/workspaces": {
         "active-only": "false",
-        "format": "",
+        "format": "{icon}",
         "all-outputs": true,
         "persistent-workspaces": {
                     "*": 5 
