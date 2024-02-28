@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Additional commands after package installation
 
 # Start daemons
