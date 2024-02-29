@@ -55,6 +55,7 @@ yay_packages=(
     pyprland
     sway-audio-idle-inhibit-git
     gradience-git
+    appimagelauncher
 )
 
 # Install packages with pacman
