@@ -92,26 +92,26 @@ window#waybar.chromium {
 
 #weatherandclock {
     background-color: @background;
-    color: @color1
+    color: @color12
 }
 
 #custom-notification {
     padding: 0px 15px;
     background-color: @background;
-    color: @foreground;
+    color: @color4;
     font-family: "NotoSansMono"
 }
 
 #custom-power {
     background-color: @background;
     border-radius: 26px;
-    color: @color4;
+    color: @color7;
     min-width:  50px;
 }
 
 #hardwarestats {
     background-color: @background;
-    color: @color6;
+    color: @color1;
     padding: 0px 0px 0px 0px
 }
 
