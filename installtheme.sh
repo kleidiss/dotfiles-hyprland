@@ -19,8 +19,8 @@ pacman_packages=(
     flatpak
     gvfs
     swaybg 
-    thunar-volman 
     gvfs-mtp
+    swayidle
     xdg-user-dirs
     network-manager-applet
     blueman
@@ -53,6 +53,7 @@ yay_packages=(
     swaylock-effects
     rofi-lbonn-wayland-git
     pyprland
+    sway-audio-idle-inhibit-git
     gradience-git
 )
 
