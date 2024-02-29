@@ -9,6 +9,9 @@ sudo systemctl start power-profiles-daemon.service
 sudo systemctl enable bluetooth
 sudo systemctl start bluetooth
 
+# Uninstall useless packages
+sudo pacman -Rsn kitty dunst dolphin vim wofi
+
 # Update the user directories
 echo "Updating user directories..."
 xdg-user-dirs-update
@@ -21,11 +24,13 @@ stow .
 echo "Setting gtk theme..."
 flatpak install org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark
 gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-#Default terminal
+# Default terminal
 gsettings set org.cinnamon.desktop.default-applications.terminal exec alacritty
 
-#Set kvantun theme to pywal
+# Set kvantun theme to pywal
 kvantummanager --set pywal
+
+
 
 # Install pywal16
 echo "Installing pywall16..."
