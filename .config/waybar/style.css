@@ -10,7 +10,7 @@ window#waybar {
     background-color: @transparent;
     transition-property: background-color;
     transition-duration: .5s;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 window#waybar.hidden {
@@ -40,7 +40,7 @@ window#waybar.chromium {
 }
 
 #workspaces {
-    background: @background;
+    background-color: rgba(0, 0, 0, 0.5);
     margin: 5px 2px 5px 2px;
     border-radius: 7px;
     font-weight: bold;
@@ -68,11 +68,6 @@ window#waybar.chromium {
     border-radius: 15px;
 }
 
-#clock,
-#bluetooth,
-#temperature,
-#network,
-#pulseaudio,
 #custom-updates
 #custom-media,
 #custom-power,
@@ -86,31 +81,33 @@ window#waybar.chromium {
 #custom-notification,
 #settings,
 #mpd {
+    background-color: rgba(0, 0, 0, 0.5);
     margin: 6px 5px;
     border-radius: 7px;
 }
 
-#weatherandclock {
-    background-color: @background;
-    color: @color12
+#clock {
+    margin: 6px 7px;
+    color: @color12;
 }
 
 #custom-notification {
     padding: 0px 15px;
-    background-color: @background;
     color: @color4;
     font-family: "NotoSansMono"
 }
 
+#temperature {
+    margin: 6px 5px;
+}
+
 #custom-power {
-    background-color: @background;
     border-radius: 26px;
     color: @color7;
-    min-width:  50px;
+    min-width:  50px
 }
 
 #hardwarestats {
-    background-color: @background;
     color: @color1;
     padding: 0px 0px 0px 0px
 }
@@ -141,13 +138,16 @@ label:focus {
 }
 
 #settings {
-    background-color: @background;
+    background-color: rgba(0, 0, 0, 0.5);
     color: @color12;
+}
+
+#bluetooth, network, pulseaudio {
+    margin: 0px 10px;
     padding: 0px 0px 0px 0px
 }
 
 #custom-updates {
-    background-color: @background;
     color: @color7;
     padding: 7px
 }
@@ -159,10 +159,6 @@ label:focus {
 
 #temperature.critical {
     color: #eb4d4b;
-}
-
-#taskbar {
-    background: @background;
 }
 
 #taskbar.empty {
@@ -178,7 +174,6 @@ label:focus {
 }
 
 #tray {
-    background: @background;
     padding: 0px 8px 0px 5px;
 }
 

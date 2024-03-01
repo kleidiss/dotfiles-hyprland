@@ -1,9 +1,9 @@
 @import '../../.cache/wal/colors-waybar.css';
 
-@define-color cc-bg @background;
+@define-color cc-bg rgba(0, 0, 0, 0.7);
 @define-color noti-border-color @foregorund;
-@define-color noti-bg @background;
-@define-color noti-bg-opaque @color12;
+@define-color noti-bg rgba(0, 0, 0, 0.6);
+@define-color noti-bg-opaque @background;
 @define-color noti-bg-darker @color8;
 @define-color noti-bg-hover rgb(56, 56, 56);
 @define-color noti-bg-hover-opaque rgb(56, 56, 56);
@@ -14,7 +14,7 @@
 @define-color text-color-disabled rgb(150, 150, 150);
 @define-color bg-selected @color11;
 .notification-row {
-  outline: 2px @foregorund;
+  outline: 3px @foregorund;
 }
 
 .notification-row:focus, .notification-row:hover {
@@ -326,7 +326,7 @@
 /* DND widget */
 .widget-dnd {
   background-color: @color3;
-  color: @text-color;
+  color: @background;
   padding: 8px;
   margin: 12px;
   font-size: 1.1rem;
@@ -344,7 +344,7 @@
 }
 
 .widget-dnd > switch:checked {
-  background: @cursor;
+  background: @color8;
 }
 
 .widget-dnd > switch slider {
