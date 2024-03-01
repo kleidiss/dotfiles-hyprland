@@ -1,4 +1,18 @@
 [pyprland]
 plugins = [
     "magnify",
+    "scratchpads",
 ]
+
+[scratchpads.dropdown]
+animation = "fromTop"
+command = "alacritty --class scratchpad"
+margin-top = 130
+
+#[scratchpads.nvim]
+#animation = "fromTop"
+#command="flatpak run com.discordapp.Discord"
+#class = "discord"
+#class_match= "true"
+#lazy = true
+#margin-top = 130
