@@ -1,6 +1,6 @@
 # My Hyprland theme with dynamic colors
 
-![image](https://github.com/kleidiss/dotfiles/assets/124008722/e8031751-bb27-48f7-a2f7-b8f452d7d51e)
+![image](https://github.com/kleidiss/dotfiles/assets/124008722/297ef507-e678-4bc1-a90b-582b2152533d)
 
 
 # How to install?
@@ -12,8 +12,12 @@
 
 2 - Make the installtheme.sh script executable by using ```chmod +x installtheme.sh```
 
-3 - Run installtheme.sh 
+3 - Run installtpackages.sh 
 
-4 - Set a wallpaper with waypaper app to update the theme 
+4 - Run applytheme.sh (make executable if needed)
 
 5 - Cheri Cheri Lady 
+
+### You will get a error on hyprland saying a source file is missing , it's normal:
+4 - Set a wallpaper with waypaper app to update the theme and reboot to make the error go away
+
