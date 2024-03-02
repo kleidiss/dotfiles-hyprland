@@ -8,6 +8,7 @@ plugins = [
 animation = "fromTop"
 command = "alacritty --class scratchpad"
 margin-top = 130
+lazy = true
 
 [scratchpads.nemo]
 animation = "fromTop"

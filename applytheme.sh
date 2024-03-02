@@ -10,7 +10,7 @@ sudo systemctl enable bluetooth
 sudo systemctl start bluetooth
 
 # Uninstall useless packages
-sudo pacman -Rsn kitty dunst dolphin vim wofi
+sudo pacman -Rsn kitty dunst dolphin vim wofi sddm
 
 # Update the user directories
 echo "Updating user directories..."
@@ -52,6 +52,49 @@ sleep 1
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 rm ~/.zshrc
 stow .
+
+# Autologin
+echo "Configuring autologin..."
+# Detect the current username
+USERNAME=$(whoami)
+
+# Create a systemd service override directory for getty@tty1
+sudo mkdir -p /etc/systemd/system/getty@tty1.service.d
+
+# Create the override file to enable auto-login
+echo "[Service]
+ExecStart=
+ExecStart=-/usr/bin/agetty --autologin $USERNAME --noclear %I \$TERM" | sudo tee /etc/systemd/system/getty@tty1.service.d/override.conf > /dev/null
+
+# Add Hyprland startup command to the user's shell profile if not already present
+HYPR_STARTUP="if [ -z \"\$DISPLAY\" ] && [ \"\$(tty)\" = \"/dev/tty1\" ]; then exec Hyprland; fi"
+
+# Determine the shell and its profile file
+SHELL=$(getent passwd $USERNAME | cut -d: -f7)
+PROFILE_FILE=""
+
+if [[ "$SHELL" == */bash ]]; then
+    PROFILE_FILE="$HOME/.bash_profile"
+elif [[ "$SHELL" == */zsh ]]; then
+    PROFILE_FILE="$HOME/.zprofile"
+else
+    echo "Unsupported shell. Please manually configure your shell to start Hyprland."
+    exit 1
+fi
+
+# Append Hyprland startup command to profile if it doesn't already exist
+if ! grep -q "exec hyprland" "$PROFILE_FILE"; then
+    echo "$HYPR_STARTUP" >> "$PROFILE_FILE"
+fi
+
+# Reload systemd to apply changes
+sudo systemctl daemon-reload
+
+# Enable getty@tty1.service
+sudo systemctl enable getty@tty1.service
+
+echo "Auto-login and Hyprland startup configuration complete. Please reboot."
+
 
 echo "Configuration complete."
 
