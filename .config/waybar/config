@@ -55,7 +55,8 @@
     "group/weatherandclock": {
         "orientation": "inherit",
         "modules": [
-            "clock"
+            "clock",
+            "custom/weather"
         ] 
     },
     "custom/notification": {
@@ -83,10 +84,10 @@
         "spacing": 10
     },
     "custom/weather": {
-        "format": "{} °",
+        "format": "{} °  ",
         "tooltip": true,
         "interval": 3600,
-        "exec": "wttrbar",
+        "exec": "~/.local/bin/wttrbar",
         "return-type": "json"
     },    
     "custom/updates": {
@@ -122,7 +123,7 @@
     },
     "clock": {
         "interval": 60,
-        "format": " {:%H:%M}",
+        "format": " {:%H:%M} /",
         "max-length": 25
     },
     "cpu": {
