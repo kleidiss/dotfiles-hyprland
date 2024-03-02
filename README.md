@@ -10,7 +10,7 @@
 
 1 - Make sure yay and git are insatlled and clone this repo 
 
-2 - Make the installtheme.sh script executable by using ```chmod +x installtheme.sh```
+2 - Make the installtheme.sh script executable by using ```chmod +x installpackages.sh```
 
 3 - Run installtpackages.sh 
 
