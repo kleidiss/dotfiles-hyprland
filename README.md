@@ -19,5 +19,5 @@
 5 - Cheri Cheri Lady 
 
 ### You will get a error on hyprland saying a source file is missing , it's normal:
-4 - Set a wallpaper with waypaper app to update the theme and reboot to make the error go away
+- Set a wallpaper with waypaper app to update the theme and reboot to make the error go away
 
