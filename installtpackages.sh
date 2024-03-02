@@ -50,7 +50,7 @@ yay_packages=(
     waypaper-git
     waybar-module-pacman-updates-git
     swaync
-    swaylock-effects
+    hyprlock
     rofi-lbonn-wayland-git
     pyprland
     sway-audio-idle-inhibit-git
