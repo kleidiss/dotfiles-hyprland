@@ -20,7 +20,6 @@ pacman_packages=(
     gvfs
     swaybg 
     gvfs-mtp
-    swayidle
     xdg-user-dirs
     network-manager-applet
     blueman
@@ -53,9 +52,9 @@ yay_packages=(
     hyprlock-git
     rofi-lbonn-wayland-git
     pyprland
-    sway-audio-idle-inhibit-git
     gradience-git
     appimagelauncher
+    hypridle-git
 )
 
 # Install packages with pacman
