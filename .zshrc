@@ -106,8 +106,7 @@ export VISUAL="$EDITOR"
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
+alias ls="eza --icons"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Created by `pipx` on 2024-02-19 16:16:02

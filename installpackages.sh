@@ -22,6 +22,7 @@ pacman_packages=(
     network-manager-applet
     blueman
     bluez-utils
+    eza
     bluez
     qt5ct
     qt6ct
