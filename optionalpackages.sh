@@ -5,6 +5,9 @@ pacman_packages=(
     font-manager
     gnome-software
     nwg-look
+    btop
+    nvim
+    goverlay
 )
 
 # Define packages to be installed with yay
