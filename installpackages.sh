@@ -10,12 +10,10 @@ pacman_packages=(
     power-profiles-daemon
     waybar
     gnome-disk-utility
-    gnome-software
     polkit-kde-agent
     brightnessctl
     ttf-font-awesome
     ttf-roboto-mono
-    font-manager
     flatpak
     gvfs
     swaybg 
@@ -33,7 +31,6 @@ pacman_packages=(
     python-pipx
     kvantum
     imagemagick
-    nwg-look
     cliphist
     pamixer
     playerctl
@@ -41,6 +38,7 @@ pacman_packages=(
     noto-fonts-emoji
     papirus-icon-theme
     ttf-arimo-nerd
+    pavucontrol
 )
 
 # Define packages to be installed with yay
@@ -53,7 +51,6 @@ yay_packages=(
     rofi-lbonn-wayland-git
     pyprland
     gradience-git
-    appimagelauncher
     hypridle-git
 )
 
