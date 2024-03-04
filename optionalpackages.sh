@@ -13,6 +13,7 @@ pacman_packages=(
 # Define packages to be installed with yay
 yay_packages=(
     appimagelauncher
+    visual-studio-code-bin
 )
 
 # Install packages with pacman
