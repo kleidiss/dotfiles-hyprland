@@ -53,6 +53,7 @@ yay_packages=(
     pyprland
     gradience-git
     hypridle-git
+    pfetch
 )
 
 # Install packages with pacman
