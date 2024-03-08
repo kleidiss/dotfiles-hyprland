@@ -47,7 +47,7 @@ flatpak install org.kde.KStyle.Kvantum/x86_64/5.15-22.08 org.kde.KStyle.Kvantum/
 
 # Install oh-my-zsh
 echo "Installing oh-my-zsh and plugins..."
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 sleep 1
 stow .
 sleep 1
@@ -59,7 +59,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 # zsh-autocomplete plugin
 git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
 sleep 1
+# Change default shell to zsh
+chsh -s /bin/zsh
+# Delelte generated zshrc
 rm ~/.zshrc
+# Put custom zshrc
 stow .
 
 # Autologin
