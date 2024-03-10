@@ -53,18 +53,18 @@ stow .
 sleep 1
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 sleep 1
-# zsh-syntax-highlighting plugin
-sleep 1
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
-# zsh-autocomplete plugin
-git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
-sleep 1
 # Change default shell to zsh
 chsh -s /bin/zsh
 # Delelte generated zshrc
 rm ~/.zshrc
 # Put custom zshrc
 stow .
+# zsh-syntax-highlighting plugin
+sleep 1
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+# zsh-autocomplete plugin
+git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
+sleep 1
 
 # Autologin
 echo "Configuring autologin..."
