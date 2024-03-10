@@ -10,7 +10,6 @@ pacman_packages=(
     power-profiles-daemon
     waybar
     gnome-disk-utility
-    polkit-kde-agent
     brightnessctl
     ttf-font-awesome
     ttf-roboto-mono
@@ -31,6 +30,7 @@ pacman_packages=(
     udiskie
     python-pipx
     kvantum
+    kvantum-qt5 
     imagemagick
     cliphist
     pamixer
@@ -54,6 +54,7 @@ yay_packages=(
     gradience-git
     hypridle-git
     pfetch
+    xfce-polkit
 )
 
 # Install packages with pacman
