@@ -117,8 +117,7 @@ window#waybar.chromium {
 
 @keyframes blink {
     to {
-        background-color: #ffffff;
-        color: #000000;
+        color: #f91616;
     }
 }
 
