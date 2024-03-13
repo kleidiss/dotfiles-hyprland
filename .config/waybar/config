@@ -24,7 +24,7 @@
     "format": "{icon}",
     "icon-size": 15,
     "spacing": 0,
-    "icon-theme": "Numix-Circle",
+    "icon-theme": "Papirus-Dark",
     "tooltip-format": "{title}",
     "on-click": "activate",
     "on-click-middle": "close",

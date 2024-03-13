@@ -42,7 +42,7 @@ window#waybar.chromium {
 #workspaces {
     background-color: rgba(0, 0, 0, 0.5);
     margin: 5px 2px 5px 2px;
-    border-radius: 7px;
+    border-radius: 15px;
     font-weight: bold;
     color: @background
 }
@@ -82,7 +82,7 @@ window#waybar.chromium {
 #mpd {
     background-color: rgba(0, 0, 0, 0.5);
     margin: 6px 5px;
-    border-radius: 7px;
+    border-radius: 15px;
 }
 
 #clock {
